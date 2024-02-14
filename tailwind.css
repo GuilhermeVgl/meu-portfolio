@@ -1,0 +1,300 @@
+/**
+ * CSS Styles for code highlighting.
+ * Feel free to customize token styles 
+ * by copying from a prismjs compatible theme:
+ * https://github.com/PrismJS/prism-themes
+ */
+
+/* Code title styles */
+
+.remark-code-title {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.remark-code-title + div > pre {
+  margin-top: 0px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+/* Code block styles */
+
+.code-highlight {
+  float: left;
+  min-width: 100%;
+}
+
+.code-line {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: block;
+  border-left-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.highlight-line {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  border-left-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(162 142 118 / var(--tw-border-opacity));
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  --tw-bg-opacity: 0.5;
+}
+
+.line-number::before {
+  margin-left: -0.5rem;
+  padding-right: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+  content: attr(line);
+}
+
+/**
+ * Dracula Theme originally by Zeno Rocha [@zenorocha]
+ * https://draculatheme.com/
+ *
+ * Ported for PrismJS by Albert Vallverdu [@byverdu]
+ */
+
+a {
+  text-decoration: none !important;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #f8f8f2;
+  background: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+
+pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background: #282a36;
+}
+
+/* Inline code */
+
+:not(pre) > code[class*='language-'] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+  color: #6272a4;
+}
+
+.token.punctuation {
+  color: #f8f8f2;
+}
+
+.namespace {
+  opacity: 0.7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+  color: #ff79c6;
+}
+
+.token.boolean,
+.token.number {
+  color: #bd93f9;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+  color: #50fa7b;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+  color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+  color: #f1fa8c;
+}
+
+.token.keyword {
+  color: #8be9fd;
+}
+
+.token.regex,
+.token.important {
+  color: #ffb86c;
+}
+
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+
+.token.italic {
+  font-style: italic;
+}
+
+.token.entity {
+  cursor: help;
+}
+
+.nomeHeader {
+  opacity: 0;
+  animation: showText .3s linear forwards;
+  animation-delay: .4s;
+}
+
+.about {
+  opacity: 0;
+  animation: showText .2s linear forwards;
+  animation-delay: .6s;
+}
+
+.contact {
+  opacity: 0;
+  animation: showText .2s linear forwards;
+  animation-delay: .8s;
+}
+
+.darkButton {
+  opacity: 0;
+  animation: showText .2s linear forwards;
+  animation-delay: .9s;
+}
+
+.firstName {
+  opacity: 0;
+  animation: showText .3s linear forwards;
+  animation-delay: 1.3s;
+}
+
+.surname {
+  opacity: 0;
+  animation: showText .4s linear forwards;
+  animation-delay: 1.5s;
+}
+
+.odyssey {
+  opacity: 0;
+  animation: showText .4s linear forwards;
+  animation-delay: 1.7s;
+}
+
+.readMore {
+  opacity: 0;
+  animation: showText .1s linear forwards;
+  animation-delay: 2.2s;
+}
+
+@keyframes showText {
+  0% {
+    transform: translateY(75%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: white;
+  background: rgb(132, 132, 132);
+}
+
+::selection {
+  color: white;
+  background: rgb(132, 132, 132);
+}
+
+.underlineOpen {
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.underlineOpen:focus,
+.underlineOpen:hover {
+  color: #fff;
+}
+
+.underlineOpen:focus:after,
+.underlineOpen:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.underlineOpen:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
