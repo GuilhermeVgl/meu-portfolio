@@ -38,8 +38,6 @@ async function fetchNowPlaying(): Promise<NowPlayingSong | null> {
 export default async function NowPlaying() {
   const nowPlaying = await fetchNowPlaying();
 
-  console.log("Now Playing:", nowPlaying)
-
   if (nowPlaying?.songUrl == null|| nowPlaying.title == null || nowPlaying.artist == null) {
     return (
       <div className="flex items-center justify-center space-x-2 text-sm sm:justify-start sm:text-base">
