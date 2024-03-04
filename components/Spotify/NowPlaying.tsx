@@ -1,3 +1,5 @@
+"use client"
+
 import { getNowPlaying } from '@/lib/utils/spotify';
 import AnimatedBars from './AnimatedBars';
 import { Artist, NowPlayingSong } from './types';
