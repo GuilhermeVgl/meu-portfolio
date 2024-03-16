@@ -16,9 +16,9 @@ export default function Header() {
               <Link
                 href="/"
                 aria-label="d."
-                className="text-3xl font-extrabold sm:block underlineOpen"
+                className="text-3xl font-extrabold sm:block underlineOpen text-primary-200"
               >
-                Guilherme V.
+                Guilherme
               </Link>
             </div>
             <div className="flex items-center space-x-3 text-base leading-5">

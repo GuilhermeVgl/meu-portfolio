@@ -50,9 +50,9 @@ export default async function NowPlaying() {
           />
         </svg>
         <div className="inline-flex space-x-1">
-          <p className="font-medium text-gray-800 dark:text-gray-200">Not Playing</p>
-          <span className="text-gray-500 dark:text-gray-300">{' – '}</span>
-          <p className="text-gray-500 dark:text-gray-300">Spotify</p>
+          <p className="font-medium text-primary-200">Not Playing</p>
+          <span className="text-gray-500">{' – '}</span>
+          <p className="text-primary-100">Spotify</p>
         </div>
       </div>
     );

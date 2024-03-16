@@ -25,21 +25,18 @@ export default function Hero(): ReactElement {
 
   return (
     <div className='grainy-header'>
-      <h1 className="sr-only">
-        Hello I'm Guilherme Vieira, I'm a software developer, and I love building things for the web.
-      </h1>
       <div className="relative z-10 flex h-[calc(100vh-81px)] items-center md:h-[calc(100vh-116px)]">
         <div className="mx-auto w-screen max-w-3xl px-4 sm:px-9 xl:max-w-5xl xl:px-0">
           <div className="-mt-36">
             <div ref={ref} className="flex cursor-default flex-col space-y-2">
-              <h1 className="text-5xl font-semibold sm:text-6xl md:text-7xl xl:text-9xl">
-                <b className="firstName">Guilherme</b> <b className="surname">Vieira</b>
+              <h1 className="text-5xl text-primary-100 font-semibold sm:text-6xl md:text-7xl xl:text-9xl">
+                <b className="firstName">Guilherme</b> <b className="surname">Freitas</b>
               </h1>
-              <h2 className="text-3xl font-large sm:text-6xl md:text-3xl xl:text-4xl odyssey">
-                The Odyssey of a <b className='dark:text-primary-600'>Software engineer</b>.
+              <h2 className="text-3xl font-large sm:text-6xl md:text-3xl xl:text-4xl odyssey text-primary-100 ">
+                The Odyssey of a <b className='text-primary-200'>Software engineer</b>.
               </h2>
-              <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineHyper readMore">
-                <Link href="/about"><b className="dark:text-primary-600">Read more</b> about me &rarr;</Link>
+              <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineHyper readMore text-primary-100">
+                <Link href="/about"><b className="text-primary-200">Read more</b> about me &rarr;</Link>
               </button>
             </div>
             <motion.div

@@ -44,6 +44,8 @@ module.exports = {
           google: '#c71610'
         },
         primary: {
+          100: '#F9EFDB',
+          200: '#B0926A',
           500: 'rgb(132, 132, 132)',
           600: '#ff2a00',
         },

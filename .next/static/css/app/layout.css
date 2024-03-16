@@ -2357,6 +2357,14 @@ select {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity));
 }
+.text-primary-100 {
+  --tw-text-opacity: 1;
+  color: rgb(249 239 219 / var(--tw-text-opacity));
+}
+.text-primary-200 {
+  --tw-text-opacity: 1;
+  color: rgb(176 146 106 / var(--tw-text-opacity));
+}
 .text-primary-500 {
   --tw-text-opacity: 1;
   color: rgb(132 132 132 / var(--tw-text-opacity));
@@ -2966,11 +2974,6 @@ input:-webkit-autofill:focus {
 :is(.dark .dark\:text-gray-600) {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-:is(.dark .dark\:text-primary-600) {
-  --tw-text-opacity: 1;
-  color: rgb(255 42 0 / var(--tw-text-opacity));
 }
 
 @media not all and (min-width: 1024px) {

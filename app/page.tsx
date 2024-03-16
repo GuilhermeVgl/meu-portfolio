@@ -13,10 +13,10 @@ export default function Page() {
       <div className='grainy-footer'>
         <MainLayout>
             <div className="space-y-2 pt-6 pb-8 md:space-y-5 ">
-              <h1 className="text-4xl talk font-bold leading-9 tracking-tight dark:text-primary-600 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+              <h1 className="text-4xl talk font-bold leading-9 tracking-tight text-primary-200 sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
                 Projects
               </h1>
-              <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+              <p className="text-lg leading-7 text-gray-500 text-primary-100">
                 Showcase of Featured Projects.
               </p>
             </div>
