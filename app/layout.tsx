@@ -2,10 +2,8 @@ import '@/css/prism.css';
 import '@/css/tailwind.css';
 import '@fontsource/mukta';
 
-import Analytics from '@/components/Analytics';
 import Footer from '@/components/Footer';
 import Header from '@/components/Header';
-import LogRocket from '@/components/LogRocket';
 import LenisProvider from '@/components/Providers/LenisProvider';
 import ThemeProvider from '@/components/Providers/ThemeProvider';
 
@@ -36,8 +34,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <main>{children}</main>
           </LenisProvider>
           <Footer />
-          <LogRocket />
-          <Analytics />
         </ThemeProvider>
       </body>
     </html>
