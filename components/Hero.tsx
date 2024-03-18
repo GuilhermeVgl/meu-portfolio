@@ -30,13 +30,13 @@ export default function Hero(): ReactElement {
           <div className="-mt-36">
             <div ref={ref} className="flex cursor-default flex-col space-y-2">
               <h1 className="text-5xl text-primary-100 font-semibold sm:text-6xl md:text-7xl xl:text-9xl">
-                <b className="firstName">Guilherme</b> <b className="surname">Freitas</b>
+                <b className="firstName text-primary-200">Guilherme</b> <b className="surname">Freitas</b>
               </h1>
               <h2 className="text-3xl font-large sm:text-6xl md:text-3xl xl:text-4xl odyssey text-primary-100 ">
                 The Odyssey of a <b className='text-primary-200'>Software engineer</b>.
               </h2>
-              <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineHyper readMore text-primary-100">
-                <Link href="/about"><b className="text-primary-200">Read more</b> about me &rarr;</Link>
+              <button className="text-md w-max cursor-pointer sm:text-lg md:text-xl xl:text-2xl font-semibold underlineHyper readMore">
+                <Link href="/about"><b className="text-primary-200">Read more</b><b className="text-primary-100"> about me &rarr;</b></Link>
               </button>
             </div>
             <motion.div

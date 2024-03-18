@@ -9,7 +9,7 @@ return (
       <MainLayout>
         <div className="flex w-full py-4 px-4 max-lg:flex-col">
             <div className="w-full">
-              <form id="submit-form" className="custom-form" action="https://formspree.io/f/mbjvelbj" method="POST">
+              <form id="submit-form" className="custom-form text-primary-100" action="https://formspree.io/f/mbjvelbj" method="POST">
                     <p className=""> My name is
                       <input id="name" className="w-full block text-white bg-black rounded-lg" name="name" required/>
                     </p> <br></br>
@@ -26,8 +26,8 @@ return (
               </form>
             </div>
             <div className="text-center">
-              <h1 className="text-4xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
-                Let's <b className="dark:text-primary-600 underline talk">Talk!</b>
+              <h1 className="text-primary-100 text-4xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">
+                Let's <b className="underline talk">Talk!</b>
               </h1>
                 <ul className="grid flex-col items-center justify-center text-center py-4">
                   <li className="py-2">

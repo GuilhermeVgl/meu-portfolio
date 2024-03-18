@@ -203,7 +203,7 @@ pre[class*='language-'] {
   opacity: 0;
   animation: showText .2s linear forwards;
   animation-delay: .8s;
-  color: #ff2a00;
+  color: #B0926A;
 }
 
 .darkButton {
@@ -231,6 +231,7 @@ pre[class*='language-'] {
 }
 
 .readMore {
+  color: #F9EFDB !important;
   opacity: 0;
   animation: showText .1s linear forwards;
   animation-delay: 2.2s;
@@ -260,7 +261,7 @@ pre[class*='language-'] {
 }
 
 .underlineOpen {
-  color: #FFF;
+  color: #F9EFDB;
   cursor: pointer;
   position: relative;
   border: none;
@@ -284,7 +285,7 @@ pre[class*='language-'] {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #FFF;
+  background-color: #B0926A;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: width, left;
@@ -314,7 +315,7 @@ pre[class*='language-'] {
   position: absolute;
   width: 0%;
   height: 2px;
-  background-color: #ff2a00;
+  background-color: #B0926A;
   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
   transition-duration: 400ms;
   transition-property: width, left;
@@ -425,8 +426,8 @@ form p {
   width: 20%;
   height: 6vh;
   border-radius: 1em;
-  border: 1px solid #ff2a00;
-  color: #ff2a00;
+  border: 1px solid #B0926A;
+  color: #B0926A;
   -webkit-user-select:none;
   -moz-user-select:none;
   user-select:none;
@@ -441,7 +442,7 @@ form p {
 .send-button:hover {
   transition-duration: 0.1s;
   color: white;
-  background-color: #ff2a00;
+  background-color: #B0926A;
 }
 
 .send-button:after {
@@ -455,11 +456,11 @@ form p {
   height: 100%;
   opacity: 0;
   transition: all 0.5s;
-  box-shadow: 0 0 10px 40px rgba(202, 20, 20, 0.827);
+  box-shadow: 0 0 10px 40px #B0926A;
 }
 
 .send-button:active:after {
-  box-shadow: 0 0 0 0 rgba(202, 20, 20, 0.827);
+  box-shadow: 0 0 0 0 #B0926A;
   position: absolute;
   border-radius: 4em;
   left: 0;
@@ -513,6 +514,11 @@ form p {
   top:0;
   opacity: 1;
   transition: 0s;
+}
+
+a {
+  color: #B0926A !important;
+  text-decoration: none !important;
 }
 
 .button:active {
@@ -581,16 +587,8 @@ form {
 }
 
 .icons {
-  fill: #ff2a00;
+  fill: #B0926A;
   cursor: pointer;
-}
-
-a {
-  text-decoration: none !important;
-}
-
-.a:hover {
-  color: #ff2a00 !important;
 }
 
 .send-button {
@@ -599,6 +597,33 @@ a {
 
 .not-found-title {
   font-size: 8em;
+}
+.svg {
+  height: 100vh;
+  width: 100vw;
+  background-color: #1D1F22;
+}
+
+.path {
+  
+  stroke-dasharray: 400;
+  stroke-linecap: round;
+  animation-timing-function: ease-in;
+  animation: draw 6s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes draw {
+  from {
+    stroke-dashoffset: 400
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.talk {
+  text-decoration: underline !important;
 }
 /*!**************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./css/tailwind.css ***!

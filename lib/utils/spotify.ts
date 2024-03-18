@@ -27,7 +27,7 @@ export const getNowPlaying = async () => {
 
   return fetch(NOW_PLAYING_ENDPOINT, {
     headers: {
-      Authorization: `Bearer ${access_token}`,
+      Authorization: `Bearer ${access_token}`
     }
   });
 };

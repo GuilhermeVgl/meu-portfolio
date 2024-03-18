@@ -7,8 +7,10 @@ import MobileNav from './MobileNav';
 import SectionContainer from './SectionContainer';
 
 export default function Header() {
+  
   return (
     <main className="grainy-header">
+      <script type="module" src="./hoisted.js"></script>
       <SectionContainer>
         <header className="z-40 bg-transparent py-5 md:py-10">
           <div className="mx-auto flex max-w-5xl items-center justify-between">

@@ -1,5 +1,3 @@
-"use client"
-
 import siteMetadata from 'content/siteMetadata';
 import Link from 'next/link';
 import { AiFillLinkedin } from 'react-icons/ai';

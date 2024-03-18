@@ -10,8 +10,10 @@ export default function About() {
   
   const { download } = useDownloader(); 
 
-  const fileUrl = "/static/files/GuilhermeVieira-curriculum.pdf"; 
-  const filename = "GuilhermeVieira-curriculum.pdf"; 
+  const englishUrl = "/static/files/GuilhermeVieira-curriculum.pdf"; 
+  const portugueseUrl = "/static/files/GuilhermePTBR.pdf"; 
+  const englishFilename = "GuilhermeVieira-curriculum.pdf"; 
+  const portugueseFilename = "GuilhermePTBR.pdf"; 
 
   const author = allAuthors.find((p) => p.slug === 'about');
 
@@ -25,7 +27,8 @@ export default function About() {
         <AuthorLayout content={author}>
           <MDXLayoutRenderer content={author} />
         </AuthorLayout>
-        <button className="send-button" onClick={() => download(fileUrl, filename)}>Download</button>
+        <button className="send-button" onClick={() => download(englishUrl, englishFilename)}>English</button>
+        <button className="send-button mx-2" onClick={() => download(portugueseUrl, portugueseFilename)}>Portuguese</button>
       </MainLayout>
     </main>
   );

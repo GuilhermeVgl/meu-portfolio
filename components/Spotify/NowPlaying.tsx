@@ -1,5 +1,3 @@
-"use client"
-
 import { getNowPlaying } from '@/lib/utils/spotify';
 import AnimatedBars from './AnimatedBars';
 import { Artist, NowPlayingSong } from './types';
@@ -39,6 +37,8 @@ async function fetchNowPlaying(): Promise<NowPlayingSong | null> {
 
 export default async function NowPlaying() {
   const nowPlaying = await fetchNowPlaying();
+
+  console.log(nowPlaying)
 
   if (nowPlaying?.songUrl == null|| nowPlaying.title == null || nowPlaying.artist == null) {
     return (
