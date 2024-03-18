@@ -1,4 +1,3 @@
-import { escape } from '@/lib/utils/htmlEscaper';
 
 import siteMetadata from 'content/siteMetadata';
 import { PostFrontMatter } from 'types/PostFrontMatter';

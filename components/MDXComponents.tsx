@@ -6,7 +6,6 @@ import { useMDXComponent } from 'next-contentlayer/hooks';
 import Image from './Image';
 import CustomLink from './Link';
 import LinkButton from './LinkButton';
-import Pre from './Pre';
 
 interface MDXLayout {
   content: Blog | Authors;
@@ -16,7 +15,6 @@ interface MDXLayout {
 export const components: MDXComponents = {
   Image,
   a: CustomLink,
-  pre: Pre,
   LinkButton,
 };
 
