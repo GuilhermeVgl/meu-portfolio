@@ -9,6 +9,13 @@ export const projects: Project[] = [
     role: 'Fullstack Developer',
   },
   {
+    title: 'BackEnd Challenge',
+    src: 'backEndChallenge.png',
+    color: '#2b2b2b',
+    url: 'https://github.com/GuilhermeVgl/Attus-Challenge',
+    role: 'Back-end Developer',
+  },
+  {
     title: 'Lawyer WebSite',
     src: 'anaPaula.PNG',
     color: '#DEA369',
