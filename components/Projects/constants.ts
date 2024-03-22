@@ -10,7 +10,7 @@ export const projects: Project[] = [
   },
   {
     title: 'BackEnd Challenge',
-    src: 'backEndChallenge.png',
+    src: 'backEndChallenge.PNG',
     color: '#2b2b2b',
     url: 'https://github.com/GuilhermeVgl/Attus-Challenge',
     role: 'Back-end Developer',
