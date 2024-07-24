@@ -8,7 +8,7 @@ import LenisProvider from '@/components/Providers/LenisProvider';
 import ThemeProvider from '@/components/Providers/ThemeProvider';
 
 export const metadata = {
-  title: 'Guilherme Vieira',
+  title: 'Guilherme Freitas',
   description: 'Full-Stack Developer',
 };
 
