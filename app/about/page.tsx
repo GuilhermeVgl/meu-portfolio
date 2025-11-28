@@ -15,6 +15,12 @@ export default function About() {
   const englishFilename = "GuilhermeVieira-curriculum.pdf"; 
   const portugueseFilename = "GuilhermePTBR.pdf"; 
 
+  const powerpointTccPdf = "/static/files/powerpoint-tcc.pdf";
+  const powerpointTccPptx = "/static/files/powerpoint-tcc.pptx";
+
+  const powerpointTccPdfFilename = "powerpoint-tcc.pdf";
+  const powerpointTccPptxFilename = "powerpoint-tcc.pptx";
+
   const author = allAuthors.find((p) => p.slug === 'about');
 
   if (!author) {
@@ -29,6 +35,8 @@ export default function About() {
         </AuthorLayout>
         <button className="send-button" onClick={() => download(englishUrl, englishFilename)}>English</button>
         <button className="send-button mx-2" onClick={() => download(portugueseUrl, portugueseFilename)}>Portuguese</button>
+        <button className="send-button mx-2" onClick={() => download(powerpointTccPdf, powerpointTccPdfFilename)}>TCC PDF</button>
+        <button className="send-button mx-2" onClick={() => download(powerpointTccPptx, powerpointTccPptxFilename)}>TCC PPTX</button>
       </MainLayout>
     </main>
   );
